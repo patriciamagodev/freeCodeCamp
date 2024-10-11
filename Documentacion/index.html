@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>JavaScript</header>
+    <ul>
+      <li><a class="nav-link" href="#Concepto">Concepto</a></li>
+      <li><a class="nav-link" href="#Por_qué_Aprender">Por qué Aprender</a></li>
+      <li><a class="nav-link" href="#Tipos_de_Datos">Tipos de Datos</a></li>
+      <li><a class="nav-link" href="#Operadores_de_Comparación">Operadores de Comparación</a></li>
+      <li><a class="nav-link" href="#Operadores_Lógicos">Operadores Lógicos</a></li>
+      <li><a class="nav-link" href="#Referencia">Referencia</a></li>
+    </ul>
+    <footer>Patricia Mago - Proyecto FCC
+    </footer>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Concepto">
+      <header id="Concepto">Concepto</header>
+      <p>JavaScript es uno de los lenguajes de programación más usados y populares del mundo. Nació en 1995 para darle interactividad a las páginas web y desde entonces ha evolucionado hasta convertirse en un lenguaje de programación de propósito general. Dicho de otra forma: se puede usar casi para cualquier cosa.</p>
+    </section>
+
+    <section class="main-section" id="Por_qué_Aprender">
+      <header id="Por_qué_Aprender">Por qué Aprender</header>
+      <p>JavaScript es, a día de hoy, el único lenguaje de programación que todos los navegadores web entienden sin necesidad de realizar ningún paso previo. Esto hace que casi cualquier página web que visitas tiene alguna línea de JavaScript en su interior.</p>
+      <p>Su curva de aprendizaje para iniciarte es muy corta ya que en muy poco tiempo puedes empezar a hacer cosas interesantes. Para alcanzar a ser un buen programador en JavaScript necesitarás años de práctica, pero para empezar a hacer cosas interesantes bastará con poco tiempo.</p>
+    </section>
+
+    <section class="main-section" id="Tipos_de_Datos">
+      <header id="Tipos_de_Datos">Tipos de Datos</header>
+      <p>En JavaScript, como cualquier otro lenguaje de programación, vamos a querer trasladar la información del mundo real a nuestro código. Para ello, necesitamos entender qué tipos de datos existen en el lenguaje para poder representar la información que necesitamos.</p>
+      <p>En JavaScript tenemos 9 tipos de datos que se dividen en dos grandes grupos: primitivos o no primitivos. Más adelante te contaré qué significa esto, pero por ahora, vamos a ver los tipos primitivos</p>
+      <p>Dentro de los tipos primitivos tenemos 7 tipos de datos:</p>
+      <ol>
+      <li>Number</li>
+      <li>String</li>
+      <li>Boolean</li>
+      <li>Undefined</li>
+      <li>Null</li>
+      <li>Symbol</li>
+      <li>Bigint</li>
+      </ol>
+    </section>
+
+    <section class="main-section" id="Operadores_de_Comparación">
+      <header id="Operadores_de_Comparación">Operadores de Comparación</header>
+      <p>Los operadores de comparación en JavaScript nos permiten comparar dos valores. Siempre devuelven un valor booleano (true o false).</p>
+      <p>Por ejemplo, podemos comparar si un número es mayor que otro con el operador >, o si un número es menor que otro con el operador <.</p>
+      
+       <code>5 > 3 // true
+        5 < 3 // false</code>
+      
+      <p>También tenemos los operadores >= y <= que nos permiten comparar si un número es mayor o igual que otro, o si un número es menor o igual que otro.</p>
+      
+      <code>5 >= 3 // true
+        5 >= 5 // true
+        5 <= 3 // false
+        5 <= 5 // true
+      </code>
+      
+
+      <p>Para saber si dos valores son iguales podemos usar el operador === o, para saber si son diferentes, el operador !==.</p>
+      <code>5 === 5 // true
+        5 !== 5 // false</code>
+    
+    </section>
+    <section class="main-section" id="Operadores_Lógicos">
+      <header id="Operadores_Lógicos">Operadores Lógicos</header>
+      <p>Los operadores lógicos en JavaScript (y en muchos otros lenguajes de programación) se utilizan para evaluar expresiones lógicas.</p>
+      <p>En JavaScript, hay tres operadores lógicos: AND (&&), OR (||) y NOT (!).</p>
+      
+<ul>
+  <li>Operador lógico AND &&</li>
+  <p>El operador lógico AND se indica con &&. Devuelve true cuando ambos valores que conecta son true.</p>
+  <code>true && true // → true
+    true && false // → false
+    false && false // → false</code>
+
+  <li>Operador lógico OR ||</li>
+  <p>El operador lógico OR se indica con || y devuelve true cuando cualquiera de los valores que conecta es true.</p>
+  <code>true || true // → true
+    true || false // → true
+    false || false // → false</code>
+
+<li>Operador lógico NOT !</li>
+  <p>El operador lógico NOT se indica con ! e invierte el valor de un valor booleano. Se pone delante del valor que queremos invertir.</p>
+  <code>!true // → false
+    false // → true</code>
+</ul>
+    </section>
+
+    <section class="main-section" id="Referencia">
+      <header id="Referencia">Referencia</header>
+      <p>Toda esta información pertenece al sitio web <a id="webConsulta" href="https://www.aprendejavascript.dev/">aprendejavascript.dev</a> de Miguel Durán.</p>
+    </section>
+  </main>
+</body>
+</html>
